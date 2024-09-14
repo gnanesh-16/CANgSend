@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: CANgSend
+Version: 0.0.1
+Summary: CANgSend is a Python package designed for sending and managing CAN (Controller Area Network) messages related to acceleration control. It provides a simple yet flexible API for creating and dispatching CAN messages, making it ideal for applications in automotive and industrial systems where CAN communication is essential.
+Author-email: Gnox79 <balusagnanesh16@gmail.com>
+Project-URL: Homepage, https://github.com/gnanesh-16/CANgSend
+Project-URL: Issues, https://github.com/gnanesh-16/CANgSend/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-can
+Requires-Dist: argparse
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://github.com/gnanesh-16/CANgSend)
+to write your content.

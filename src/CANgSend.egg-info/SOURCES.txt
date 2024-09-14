@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/CANgSend.egg-info/PKG-INFO
+src/CANgSend.egg-info/SOURCES.txt
+src/CANgSend.egg-info/dependency_links.txt
+src/CANgSend.egg-info/requires.txt
+src/CANgSend.egg-info/top_level.txt
+src/CANgSnd/CANgSend.py
+src/CANgSnd/__init__.py
+src/CANgSnd/version.py
