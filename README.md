@@ -1,2 +1,18 @@
 # CANgSend
-CANgSend is a Python package designed for sending and managing CAN (Controller Area Network) messages related to acceleration control. It provides a simple yet flexible API for creating and dispatching CAN messages, making it ideal for applications in automotive and industrial systems where CAN communication is essential.
+
+**CANgSend** is a Python package built to facilitate the sending and management of CAN (Controller Area Network) messages. It is particularly useful for automotive and industrial applications where communication with CAN devices is essential, such as vehicle control systems, sensor networks, or industrial automation.
+
+## Key Features
+
+- **Intuitive API**: Easily configure and dispatch CAN frames.
+- **PCAN & SocketCAN Support**: Compatible with both PCAN (e.g., PCAN-USB) and SocketCAN (for Linux systems).
+- **Acceleration Control**: Simple integration for sending acceleration control messages.
+- **Checksum Calculation**: Automatic checksum calculation for message integrity.
+- **Customizable Data**: User-defined CAN message data for full flexibility.
+
+## Installation
+
+You can install the package via pip:
+
+```bash
+pip install CANgSend
