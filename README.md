@@ -16,3 +16,6 @@ You can install the package via pip:
 
 ```bash
 pip install CANgSend
+
+
+This complete `README.md` file contains all the necessary sections: package features, installation instructions, usage examples (including importing and sending CAN messages), supported platforms, contribution information, and licensing details.
