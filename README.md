@@ -18,3 +18,6 @@ You can install CANgSend via `pip`:
 
 ```bash
 pip install CANgSend
+
+```bash
+https://medium.com/@GnaneshBalusa/1-sending-can-frames-using-the-cangsend-python-package-c4d8bdcc55ec
