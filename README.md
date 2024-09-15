@@ -1,21 +1,20 @@
 # CANgSend
 
-**CANgSend** is a Python package built to facilitate the sending and management of CAN (Controller Area Network) messages. It is particularly useful for automotive and industrial applications where communication with CAN devices is essential, such as vehicle control systems, sensor networks, or industrial automation.
+[![Version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/gnanesh-16/CANgSend)
 
-## Key Features
+**CANgSend** is a Python package designed for sending and managing CAN (Controller Area Network) messages, specifically tailored for applications like vehicle acceleration control. This package allows for the easy creation and transmission of CAN messages using both the PCAN and SocketCAN interfaces, making it ideal for automotive and industrial systems where CAN communication is essential.
 
-- **Intuitive API**: Easily configure and dispatch CAN frames.
-- **PCAN & SocketCAN Support**: Compatible with both PCAN (e.g., PCAN-USB) and SocketCAN (for Linux systems).
-- **Acceleration Control**: Simple integration for sending acceleration control messages.
-- **Checksum Calculation**: Automatic checksum calculation for message integrity.
-- **Customizable Data**: User-defined CAN message data for full flexibility.
+## Features
+
+- **CAN Communication Support**: Send CAN frames using PCAN and SocketCAN interfaces.
+- **Flexible API**: Easily configure CAN channels, bitrate, and message data.
+- **Vehicle Control**: Specifically designed for handling vehicle acceleration control through CAN messages.
+- **Checksum Calculation**: Automatically handles XOR checksum for message integrity.
+- **Customizable**: User-specified parameters for message creation, including channels, interfaces, and byte values.
 
 ## Installation
 
-You can install the package via pip:
+You can install CANgSend via `pip`:
 
 ```bash
 pip install CANgSend
-
-
-This complete `README.md` file contains all the necessary sections: package features, installation instructions, usage examples (including importing and sending CAN messages), supported platforms, contribution information, and licensing details.
