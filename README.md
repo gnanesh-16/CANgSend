@@ -11,6 +11,7 @@
 - **Vehicle Control**: Specifically designed for handling vehicle acceleration control through CAN messages.
 - **Checksum Calculation**: Automatically handles XOR checksum for message integrity.
 - **Customizable**: User-specified parameters for message creation, including channels, interfaces, and byte values.
+- Here You, can found MEDIUM ( " Blog " ) https://medium.com/@GnaneshBalusa/1-sending-can-frames-using-the-cangsend-python-package-c4d8bdcc55ec
 
 ## Installation
 
@@ -18,4 +19,5 @@ You can install CANgSend via `pip`:
 
 ```bash
 pip install CANgSend
+
 
